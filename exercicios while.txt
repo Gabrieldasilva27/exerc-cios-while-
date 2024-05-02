@@ -1,0 +1,114 @@
+
+
+1- faca um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja invalido e continue pedindo ate que o usuario informe um valor valido
+
+
+nota = float(input("Digite uma nota entre zero e dez: "))
+while nota > 10 or nota < 0:
+  nota = float(input("Digite um valor valido: "))
+  print("sucesso")
+
+2- Faça um programa que leia um nome de usuário e a sua senha e não aceite a
+senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando
+a pedir as informações.
+
+
+nomeusuario = input("Escreva o nome do seu usuario: ")
+senha = input("Escreva a senha do usuario: ")
+while senha == nomeusuario :
+ print("Erro")
+ senha = input("Escreva uma senha valida")
+print("Sucesso")
+
+ 3- Escreva um programa que conte de 1 a 10 e imprima cada número.
+
+numero = 1
+while numero <= 10:
+    print(numero)
+    numero += 1
+
+4- Escreva um programa que imprima os números pares de 1 a 20."""
+
+numero = 1
+while numero <= 20:
+    if numero % 2 == 0:
+        print(numero)
+    numero += 1
+
+5- Escreva um programa que solicite ao usuário que insira um número e, em
+seguida, imprima todos os números de 1 até esse número.
+
+numero = int(input("Digite um numero: "))
+contador = 1
+while contador <= numero:
+    print(contador)
+    contador += 1
+
+6- Escreva um programa que solicite ao usuário que insira um número e, em
+seguida, imprima todos os números pares de 2 até esse número.
+
+
+numero = int(input("Digite um numero: "))
+contador = 2
+while contador <= numero:
+  if numero % 2 == 0:
+    print(contador)
+    contador += 2
+
+7- Escreva um programa que soicite ao usuario que insira um numero e, em seguida, imprima a tabuada desse numero ate 10"""
+
+numero = int(input("Por favor, digite um numero: "))
+
+contador = 1
+
+while contador <= 10:
+  resultado = numero * contador
+  print(f"{numero} x {contador} = {resultado}")
+  contador += 1
+
+8- Escreva um programa que solicite ao usuário que insira uma senha. O
+programa deve continuar solicitando a senha até que o usuário insira a senha
+correta.
+
+senha = 12345
+senha2 = int(input("Digite a senha: "))
+while senha2 != senha :
+ print("Senha incorreta")
+ senha2 = int(input("Digite a senha correta: "))
+print("Senha correta")
+
+9- Escreva um programa que calcule a média de uma lista de números fornecida
+pelo usuário.
+
+
+soma = 0
+contador = 0
+quantosnumeros = int(input("Digite quantos numeros voce quer digitar "))
+while contador < quantosnumeros :
+  numeros = int(input("Digite os numeros"))
+  soma += numeros
+  contador += 1
+media = soma / quantosnumeros
+print(media)
+
+10- Escreva um programa que solicite ao usuário que insira números até que ele
+insira o número 0. Em seguida, imprima a soma de todos os números inseridos.
+
+
+soma = 0
+numero = 1
+while numero != 0 :
+ numero = float(input("Digite um numero"))
+ soma += numero
+print(soma)
+
+11- Escreva um programa que solicite ao usuário que insira números até que ele
+insira um número negativo. Em seguida, imprima o maior número inserido.
+
+maiornumero = 0
+numero = float(input("Digite um numero"))
+while numero >= 0 :
+ numero = float(input("Digite um numero"))
+ if numero > maiornumero :
+  maiornumer8o = numero
+print(maiornumero)
