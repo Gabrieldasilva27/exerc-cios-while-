@@ -1,6 +1,6 @@
 
 
-1- faca um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja invalido e continue pedindo ate que o usuario informe um valor valido
+1- faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja invalido e continue pedindo ate que o usuario informe um valor valido
 
 
 nota = float(input("Digite uma nota entre zero e dez: "))
